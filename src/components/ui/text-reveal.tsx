@@ -46,7 +46,7 @@ export const TextRevealByWord: FC<TextRevealByWordProps> = ({
           })}
         </p>
 
-        <Iphone15Pro className="size-[30rem]" />
+        <Iphone15Pro className="size-[30rem] " src="/localhost_3000.png" />
       </div>
     </div>
   );

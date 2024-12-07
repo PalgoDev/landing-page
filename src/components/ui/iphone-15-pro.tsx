@@ -59,9 +59,9 @@ export default function Iphone15Pro({
         <image
           href={src}
           x="21.25"
-          y="19.25"
+          y="75.25"
           width="389.5"
-          height="843.5"
+          height="800.5"
           preserveAspectRatio="xMidYMid slice"
           clipPath="url(#roundedCorners)"
         />
