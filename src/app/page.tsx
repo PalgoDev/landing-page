@@ -59,7 +59,9 @@ export default function Home() {
       <div className="flex items-center justify-around w-full mt-[30vh]">
         <div className="z-10 flex min-h-[150vh] items-center justify-center w-[100%]">
           <TextReveal
-            text="Magic UI will change the way you design."
+            text="
+            
+            "
             className="text-purple-900 text-4xl"
           />
         </div>
