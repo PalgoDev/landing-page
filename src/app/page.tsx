@@ -18,7 +18,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center mt-[12vh]">
           <div
             className={cn(
-              "group rounded-full border border-black/5 bg-purple-200 text-black  transition-all ease-in hover:cursor-pointer hover:bg-purple-300 dark:border-white/5 dark:bg-neutral-900 dark:hover:bg-neutral-800 mb-2"
+              "group rounded-full border border-black/5 bg-purple-200 text-black  transition-all ease-in hover:cursor-pointer hover:bg-purple-300 dark:border-white/5 dark:bg-neutral-900 dark:hover:bg-neutral-800 mb-2 cursor-pointer"
             )}
             onClick={() => {
               window.open("https://play.palgo.live", "_blank");
