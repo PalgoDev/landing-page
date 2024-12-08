@@ -20,6 +20,9 @@ export default function Home() {
             className={cn(
               "group rounded-full border border-black/5 bg-purple-200 text-black  transition-all ease-in hover:cursor-pointer hover:bg-purple-300 dark:border-white/5 dark:bg-neutral-900 dark:hover:bg-neutral-800 mb-2"
             )}
+            onClick={() => {
+              window.open("https://play.palgo.live", "_blank");
+            }}
           >
             <AnimatedShinyText className="inline-flex items-center justify-center px-4 py-1 transition ease-out hover:text-neutral-600 hover:duration-300 hover:dark:text-neutral-400">
               <span>✨ Get Started</span>
